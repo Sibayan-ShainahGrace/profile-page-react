@@ -1,38 +1,144 @@
-.App {
+div {
+  background-color: #ebd5c0; 
+  padding: 40px;
+  text-align: center;
+  color: #FFFBF0; 
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #BACEC1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #BACEC1; 
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #1D3124; 
+}
+
+
+button {
+  background-color: #1D3124; 
+  color: #FFFBF0; 
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E59560; 
+  color: #FFFBF0; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D3124; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li a {
+  color: #FFFBF0; 
+  text-decoration: none;
+  padding: 14px 20px;
+  font-weight: bold;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li a:hover {
+  background-color: #E59560; 
+  color: #1D3124;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+ul {
+  list-style-type: disc;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li {
+  margin: 10px 15px;
+  color: #1D3124; 
+  font-size: 18px;
+}
+
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #E59560; 
+}
+
+p, label {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #1D3124;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.page-container {
+  background-color: #BACEC1; 
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  color: #1D3124; 
+}
+
+
+h1 {
+  font-size: 32px;
+  color: #E59560; 
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #1D3124;
+  margin-bottom: 20px;
 }
